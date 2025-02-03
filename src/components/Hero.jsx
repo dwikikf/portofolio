@@ -11,7 +11,7 @@ const Hero = () => {
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 tracking-tight bg-clip-text text-transparent text-3xl">
               Junior Frontend Developer
             </span>
-            <p className="max-w-xl my-2 py-6 text-[0.9rem] font-light tracking-tighter ">{HERO_CONTENT}</p>
+            <p className="myP-tighter-light">{HERO_CONTENT}</p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:pl-16 lg:py-8">
