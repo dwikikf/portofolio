@@ -1,3 +1,4 @@
+import Picture from "../components/Picture"
 import { HERO_CONTENT } from "../constants"
 import profilePic from "../assets/kevinRushProfile.png"
 
@@ -15,9 +16,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:pl-16 lg:py-8">
-          <div className="flex item-center justify-center">
-            <img className="lg:max-w-90" src={profilePic} alt="Dwiki K.F." />
-          </div>
+          <Picture sourceImage={profilePic} altImage="Profile Dwiki K.F."/>
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import Picture from "../components/Picture"
 import aboutPic from "../assets/about.jpg"
 import { ABOUT_TEXT } from "../constants"
 
@@ -9,11 +10,9 @@ const About = () => {
       </h2>
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex items-center justify-center">
-            <img className="lg:max-w-90 rounded-2xl" src={aboutPic} alt="About Dwiki K.F" />
-          </div>
+          <Picture sourceImage={aboutPic} altImage="About Dwiki K.F." styles="rounded-2xl "/>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8 ">
           <div className="flex justify-center lg:justify-start">
             <p className="myP-tighter-light">{ABOUT_TEXT}</p>
           </div>
